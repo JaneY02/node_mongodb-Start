@@ -1,0 +1,25 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "首次，也是初步简单的学习使用node和mongodb来搭建一个从前端到后端的小项目。",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yy709593266/node_mongodb-Start.git"
+  },
+  "author": "yuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yy709593266/node_mongodb-Start/issues"
+  },
+  "homepage": "https://github.com/yy709593266/node_mongodb-Start#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.9"
+  }
+}

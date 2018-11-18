@@ -1,0 +1,17 @@
+extends ../layout
+
+block content
+    .container
+        .toolbar
+            a.btn.btn-primary(href="/admin/movie") 添加新电影
+            a.btn.btn-primary(href="/admin/list") 查看电影列表
+        .row
+            each item in movies
+                .col-md-2
+                    .thumbnai
+                        a(href="/movie/#{item._id}")
+                            img(style="width: 120px;",src="#{item.poster}",alt="#{item.title}")
+                        .caption
+                            h5 #{title}
+                            p: a.btn.btn-primary(href="/movie/#{item._id}",role="button") 观看预告片
+                               

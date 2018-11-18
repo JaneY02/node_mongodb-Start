@@ -1,0 +1,12 @@
+doctype
+html
+    head
+        meta(chaset="utf-8")
+        title #{title}
+        //- 将公用样式抽象成一个区块
+        include ./includes/head   
+    body
+        //- 网站标题或者logo
+        include ./includes/header  
+        //-每个页面中的内容
+        block content 
