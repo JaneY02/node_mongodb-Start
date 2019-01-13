@@ -8,7 +8,7 @@ $(function(){
     
         $.ajax({
             type:"DELETE",
-            url:'/admin/list?id='+id
+            url:'/admin/movie/list?id='+id
         })
         .done(function(res){
             if(res.code*1 ===200){
