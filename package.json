@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/yy709593266/node_mongodb-Start#readme",
   "dependencies": {
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.0.0",
     "connect-mongo": "^2.0.3",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.4",
